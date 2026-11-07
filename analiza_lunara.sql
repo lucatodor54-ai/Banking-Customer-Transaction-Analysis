@@ -5,4 +5,4 @@ SUM(suma) AS suma_totala,
 ROUND(AVG(suma), 2) AS suma_medie
 FROM tranzactii
 GROUP BY luna
-ORDER BY luna ASC;re
+ORDER BY luna ASC;
