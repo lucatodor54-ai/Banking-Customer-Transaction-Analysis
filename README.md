@@ -45,3 +45,34 @@ All data used in this project is synthetic and created for educational and portf
 
 ## Author
 Aspiring Data Analyst | SQL & Python | Accounting and Management Information Systems Student
+## Power BI – Banking Analytics Dashboard
+
+An interactive banking analytics dashboard built with **Microsoft Power BI**, using synthetic banking data exported from a relational SQLite database.
+
+### Key Performance Indicators
+- Total Customers: 100
+- Total Transactions: 1,000
+- Total Transaction Value: approximately 5 million RON
+- Total Account Balance: approximately 4 million RON
+- Average Transaction Value: approximately 4,980 RON
+- Maximum Transaction Value: approximately 10,000 RON
+- Deposit Share: 33.36%
+
+### Dashboard Features
+- Transaction value analysis by city
+- Monthly transaction trends
+- Interactive city filtering
+- Dynamic KPI cards
+- DAX measures using SUM, COUNTROWS, DISTINCTCOUNT, AVERAGE, MAX, CALCULATE and DIVIDE
+
+### Data Model
+Three relational tables connected through one-to-many relationships:
+
+- `clienti` – customer information
+- `conturi` – bank accounts
+- `tranzactii` – financial transactions
+
+### Technologies Used
+Python | SQLite | SQL | Power BI | DAX
+
+**Disclaimer:** All banking data used in this project is synthetic and does not represent real customers or transactions.
